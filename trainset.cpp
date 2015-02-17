@@ -93,15 +93,12 @@ int main(int argc, char* argv[])
   {
     //out << std::setw(7) << std::setfill('0') << i << " " << it->print();
     //it->fakeprint();
-    if( i %100 == 1)
-    {
     fprintf(pFile,
             "%07d %d/%d * %d/%d * %d/%d => %.4fmm | %.4f TPI\n",
             i,
             it->M, it->N,
             it->A, it->B, it->C, it->D,
             it->travel, it->tpi );
-    }
     i++;
   }
 
