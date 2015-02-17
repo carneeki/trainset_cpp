@@ -27,9 +27,7 @@
 *.out
 *.app
 
-
 # Library and Output Files
 *.lib.txt
 *.out.txt
 trainset
-
